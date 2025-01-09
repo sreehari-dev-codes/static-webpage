@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,300&family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+   
+     <div class="container ">
+      <div class="total-page d-flex flex-column gap-3 mt-5">
+        <div class="row justify-content-between d-flex gap-3">
+       
+          <div class="details col-md-12 col-lg-6 p-0 ">
+            <div class="card   rounded-4  px-4 ">
+              <div class="heading ps-2 pt-4 pb-2">
+                <h3 class="basic ">Basic Details</h3>
+              </div>
+              
+              
+              <label for="upload" class="text-center my-3  py-3 rounded-3 bg-light form-check upload">
+                <i class="upload-icon fa-solid fa-download"></i>
+                <h4>Upload image</h4>
+                <input type="file" id="upload">
+                <h6>png/jpg, files are allowed</h6>
+              </label>
+              <div class="details-content">
+                <div class="row congested">
+                  <div class="col-md-12 col-lg-4 my-2">
+                    <label for="salutation star" class="text form-label star">Salutation</label>
+                    <select name=""class="holder shadow-none form-select p-3" id="state">
+                      <option value="">Select</option>
+                      <option value="">a</option>
+                      <option value="">b</option>
+                      <option value="">c</option>
+                    </select>          </div>
+                  <div class="col-md-12 col-lg-4 my-2">
+                    <label for="f-name" class="text form-label star">First name</label>
+                    <input type="text" class="holder shadow-none form-control p-3" id="f-name" placeholder="John">
+                  </div>
+                  <div class="col-md-12 col-lg-4 my-2">
+                    <label for="s-name" class="text form-label star">Second name</label>
+                    <input type="text" class="holder shadow-none form-control p-3" id="s-name" placeholder="Doe">
+                  </div>
+                 </div>
+        
+                 <div class="row">
+                  <div class="col-md-12 col-lg-6 my-2">
+                    <label for="mail" class="text form-label star">Email</label>
+                    <input type="email" id="mail" class="holder shadow-none form-control p-3" placeholder="murali@gmail.com">
+                  </div>
+                  <div class="col-md-12 col-lg-6 my-2">
+                    <label for="num" class="text form-label star">Number</label>
+                    <input type="number" id="num" class="holder shadow-none form-control p-3" placeholder="Enter mobile number">
+                  </div>
+                 </div>
+        
+                 <div class="row sex">
+                  <div class="col-md-6 my-2">
+                    <label for="date" class="text  form-label star">Date of Birth</label>
+                    <input type="date" id="date"   class="holder shadow-none form-control p-3">
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <label for="" class="star text">Gender</label>
+                    <div class="d-flex f">
+                      <div class="col-lg-3 col- form-check m-3">
+                        <input type="radio" class="form-check-input" id="male" name="gender">
+                        <label for="male" class="form-check-label light-letter">Male</label>
+                      </div>
+                      <div class="col-lg-3 col- form-check m-3">
+                        <input type="radio" class="form-check-input" id="female" name="gender">
+                        <label for="female" class="form-check-label light-letter">Female</label>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+                 <div class="row">
+                  <div class="col-md-12 my-2">
+                    <label for="address"  class="text form-label star">Address</label>
+                  <input type="text" id="address" class="holder shadow-none form-control  p-3" placeholder="Enter address">
+                  </div>
+                 </div>
+                 <div class="row">
+                  <div class="col-lg-6 col-md-12 my-2">
+                    <label for="country" class="text form-label star">Country</label>
+                    <select name=""class="holder shadow-none form-select p-3" id="state">
+                      <option value="">Select State</option>
+                      <option value="">a</option>
+                      <option value="">b</option>
+                      <option value="">c</option>
+                    </select>       
+                     </div>
+                  <div class="col-lg-6 col-md-12 my-2">
+                    <label for="state" class="text form-label star">State</label>
+                    <select name=""class="holder shadow-none form-select p-3" id="state">
+                      <option value="">Select Country</option>
+                      <option value="">a</option>
+                      <option value="">b</option>
+                      <option value="">c</option>
+                    </select>
+                  </div>
+                 </div>
+                 <div class="row pb-4">
+                  <div class="col-md-6 my-2">
+                    <label for="city" class="text form-label star">City</label>
+                    <input type="text" class="holder shadow-none form-control p-3" id="city" placeholder="Enter city">
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <label for="pin" class="text form-label star">Pin/Zip</label>
+                    <input type="text" class="holder shadow-none form-control p-3" id="pin" placeholder="Enter Pin/Zip">
+                  </div>
+                 </div>
+      
+              </div>
+  
+            </div>
+  
+          </div>
+          <div class="details col-md-12 col-lg-6 p-0">
+            <div class="card   rounded-4  px-4">
+              <div class="heading ps-2 pt-4 pb-3">
+                <h3 class="basic ">Advanced Details</h3>
+              </div>
+                
+                <div class="alert alert-warning warning p-4 rounded-3">
+                 <h5>Sample warning messages - alert</h5>
+                 <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fermentum felis. Aliquam </p>
+                  
+                </div>
+                <div class="details-content ">
+                  <div class="row pt-2">
+                    <div class="person col-lg-6 col-md-12 ">
+                      <label for="customRange1" class="form-label star text">Height</label>
+                      <div class="d-flex align-items-center gap-2">
+                        <input type="range" class="form-range " id="customRange1">
+                        <span class="height radius-3 text">160 cm</span>
+                      </div>
+                     
+                     
+                    </div>
+                    <div class="person col-lg-6 col-md-12">
+                      <label for="customRange1" class="form-label star text">weight</label>
+                      <div class="d-flex align-items-center gap-2 ">
+                        <input type="range" class="form-range" id="customRange1">
+                        <div class="height radius-3 text">68 kg</div>
+                      </div>
+                    </div>
+                    </div>
+                   <div class="row my-2 clr mt-4">
+                    <div class="form-group col-lg-4 col-md-12 colorpicker tmplt">
+                      <label for="colorpicker" class="text star">Choose Color</label>
+                      <input type="color" value="#cd5395" class="form-control form-control-lg my-2" id="colorpicker" name="color">
+                   </div>
+                   <div class="col-lg-8 tmplt">
+                    <label for="choose" class="text form-label star">Choose Templete </label>
+                       <div class="row d-flex pt-2 template-items">
+                        <div class="form-check col-lg-4 col-md-12 templates">
+                          <input type="checkbox" class="form-check-input" id="tmplt1" name="temp">
+                          <label for="tmplt1" class="form-check-label light-letter ps-2">Template 1</label>
+                        </div>
+                        <div class="form-check col-lg-4 col-md-12 templates"  >
+                          <input type="checkbox" class="form-check-input" id="tmplt2" name="temp">
+                          <label for="tmplt2" class="form-check-label light-letter ps-2">Template 2</label>
+                        </div>
+                        <div class="form-check col-lg-4 col-md-12 templates">
+                          <input type="checkbox" class="form-check-input" id="tmplt3" name="temp">
+                          <label for="tmplt3" class="form-check-label light-letter ps-2">Template 3</label>
+                        </div>
+                       </div>
+                     </div>
+                      
+                   </div>
+                   
+                   
+                   <div class="row ">
+                    <div class="col-12">
+                      <label for="qualification" class="text form-label">Qualification</label>
+                      <input type="text" class="form-control form-control-lg holder p-3 shadow-none" id="qualification" placeholder="Enter qualifation">
+                    </div>
+                   </div>
+                   <div class="row pt-3">
+                    <div class="col-lg-12">
+                      <label for="area" class="text star">About your self</label>
+                      <textarea name="" id="area" rows="7" class="form-control mt-2 p-3 shadow-none" placeholder="Enter here">
+        
+                      </textarea>
+                    </div>
+                   </div>
+                   <div class="row mt-4">
+                    <div class="col-lg-12 pb-4">
+                      <input type="checkbox" id="conditions" class="form-check-input">
+                      <label for="conditions" class="condition">I Accept terms and conditions</label>
+                    </div>
+                   </div>
+      
+                </div>
+    
+            </div>
+  
+            </div>
+  
+          </div>
+          <div class="row  rounded-4 mb-5 ">
+            <div class="col-lg-12  p-3 d-flex justify-content-end bg-white rounded-4  gap-2">
+              <button type="button" class="text btn btn-light p-3 rounded-4">Cancel</button>
+                <button onclick="display" type="button" class=" btn btn-primary rounded-4 p-3 ">Save Changes</button>
+               
+              
+  
+            </div>
+          </div>
+  
+      </div>
+
+
+        </div>
+      
+      
+</body>
+</html>
